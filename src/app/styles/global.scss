@@ -1,0 +1,365 @@
+@use './variables' as *;
+@use './mixins' as *;
+@use './animations' as *;
+
+// ============================================================================
+// GLOBAL RESET & BASE STYLES
+// ============================================================================
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-secondary;
+  font-size: $font-size-base;
+  line-height: $line-height-normal;
+  color: $color-text;
+  background-color: $color-background;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// ============================================================================
+// TYPOGRAPHY
+// ============================================================================
+
+h1, h2, h3, h4, h5, h6 {
+  @include heading;
+  margin-bottom: $space-md;
+  margin-top: 0;
+}
+
+h1 {
+  font-size: $font-size-h1;
+
+  @include respond-to('md') {
+    font-size: 2rem;
+  }
+
+  @include respond-to('sm') {
+    font-size: 1.75rem;
+  }
+}
+
+h2 {
+  font-size: $font-size-h2;
+
+  @include respond-to('md') {
+    font-size: 1.5rem;
+  }
+
+  @include respond-to('sm') {
+    font-size: 1.375rem;
+  }
+}
+
+h3 {
+  font-size: $font-size-h3;
+
+  @include respond-to('md') {
+    font-size: 1.375rem;
+  }
+
+  @include respond-to('sm') {
+    font-size: 1.25rem;
+  }
+}
+
+h4 {
+  font-size: $font-size-h4;
+
+  @include respond-to('md') {
+    font-size: 1.25rem;
+  }
+
+  @include respond-to('sm') {
+    font-size: 1.125rem;
+  }
+}
+
+h5 {
+  font-size: $font-size-h5;
+}
+
+h6 {
+  font-size: $font-size-h6;
+}
+
+p {
+  margin-bottom: $space-md;
+  line-height: $line-height-relaxed;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+a {
+  color: $color-secondary;
+  text-decoration: none;
+  transition: color $transition-normal;
+
+  &:hover {
+    color: #1d4ed8;
+  }
+}
+
+// ============================================================================
+// LISTS
+// ============================================================================
+
+ul, ol {
+  margin-bottom: $space-md;
+  margin-left: $space-lg;
+
+  li {
+    margin-bottom: $space-sm;
+    line-height: $line-height-relaxed;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+// ============================================================================
+// IMAGES
+// ============================================================================
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// ============================================================================
+// FORMS
+// ============================================================================
+
+input,
+select,
+textarea {
+  @include input-base;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+label {
+  display: block;
+  margin-bottom: $space-sm;
+  font-weight: $font-weight-medium;
+  color: $color-text;
+}
+
+.form-group {
+  margin-bottom: $space-lg;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form-error {
+  color: $color-error;
+  font-size: $font-size-sm;
+  margin-top: $space-xs;
+  display: block;
+}
+
+.form-success {
+  color: $color-success;
+  font-size: $font-size-sm;
+  margin-top: $space-xs;
+  display: block;
+}
+
+// ============================================================================
+// BUTTONS
+// ============================================================================
+
+.btn {
+  @include btn-primary;
+
+  &.btn-secondary {
+    @include btn-secondary;
+  }
+
+  &.btn-ghost {
+    @include btn-ghost;
+  }
+
+  &.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: $font-size-sm;
+  }
+
+  &.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.0625rem;
+  }
+
+  &.btn-full {
+    width: 100%;
+  }
+}
+
+// ============================================================================
+// CONTAINERS & LAYOUT
+// ============================================================================
+
+.container {
+  @include container;
+}
+
+.container-fluid {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+}
+
+.section {
+  padding: $space-3xl $container-padding;
+
+  @include respond-to('md') {
+    padding: $space-2xl $container-padding;
+  }
+
+  @include respond-to('sm') {
+    padding: $space-xl $container-padding;
+  }
+
+  &.section-light {
+    background-color: $color-background;
+  }
+
+  &.section-dark {
+    background-color: $color-primary;
+    color: $color-white;
+
+    h1, h2, h3, h4, h5, h6 {
+      color: $color-white;
+    }
+  }
+}
+
+// ============================================================================
+// UTILITIES
+// ============================================================================
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.mt-0 { margin-top: 0; }
+.mt-xs { margin-top: $space-xs; }
+.mt-sm { margin-top: $space-sm; }
+.mt-md { margin-top: $space-md; }
+.mt-lg { margin-top: $space-lg; }
+.mt-xl { margin-top: $space-xl; }
+.mt-2xl { margin-top: $space-2xl; }
+
+.mb-0 { margin-bottom: 0; }
+.mb-xs { margin-bottom: $space-xs; }
+.mb-sm { margin-bottom: $space-sm; }
+.mb-md { margin-bottom: $space-md; }
+.mb-lg { margin-bottom: $space-lg; }
+.mb-xl { margin-bottom: $space-xl; }
+.mb-2xl { margin-bottom: $space-2xl; }
+
+.px-md { padding-left: $space-md; padding-right: $space-md; }
+.py-md { padding-top: $space-md; padding-bottom: $space-md; }
+.py-lg { padding-top: $space-lg; padding-bottom: $space-lg; }
+
+.hidden {
+  display: none !important;
+}
+
+.sr-only {
+  @include sr-only;
+}
+
+// ============================================================================
+// RESPONSIVE UTILITIES
+// ============================================================================
+
+@include respond-to('md') {
+  .hide-md {
+    display: none !important;
+  }
+}
+
+@include respond-to('sm') {
+  .hide-sm {
+    display: none !important;
+  }
+}
+
+// ============================================================================
+// SCROLL BEHAVIOR
+// ============================================================================
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: $color-background;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color-border;
+  border-radius: 5px;
+
+  &:hover {
+    background: #c4b5fd;
+  }
+}
+
+// ============================================================================
+// SELECTION
+// ============================================================================
+
+::selection {
+  background-color: $color-secondary;
+  color: $color-white;
+}
+
+// ============================================================================
+// ACCESSIBILITY
+// ============================================================================
+
+:focus-visible {
+  outline: 2px solid $color-secondary;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
