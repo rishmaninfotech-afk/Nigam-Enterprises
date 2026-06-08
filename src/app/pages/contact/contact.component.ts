@@ -61,7 +61,7 @@ import AOS from 'aos';
                   id="phone"
                   type="tel"
                   formControlName="phone"
-                  placeholder="+91 98765 43210"
+                  placeholder="+91 63916 47935"
                   class="form-control"
                 >
                 <span class="form-error" *ngIf="isFieldInvalid('phone')">
@@ -130,7 +130,7 @@ import AOS from 'aos';
                 <span class="info-icon">📍</span>
                 <div>
                   <strong>Address</strong>
-                  <p>Nigam Enterprises<br>City Center, Main Street<br>Your City, State 12345</p>
+                  <p>Nigam Enterprises<br>Sec.6B, Vrindavan Yojna<br>Telibagh, Lucknow - 226025</p>
                 </div>
               </div>
             </div>
@@ -142,8 +142,7 @@ import AOS from 'aos';
                 <div>
                   <strong>Phone</strong>
                   <p>
-                    <a href="tel:+919876543210">+91 98765 43210</a><br>
-                    <a href="tel:+919123456789">+91 91234 56789</a>
+                    <a href="tel:+916391647935">+91 63916 47935</a><br>
                   </p>
                 </div>
               </div>
@@ -155,7 +154,7 @@ import AOS from 'aos';
                 <span class="info-icon">📧</span>
                 <div>
                   <strong>Email</strong>
-                  <p><a href="mailto:info@nigam-enterprises.com">info@nigam-enterprises.com</a></p>
+                  <p><a href="mailto:n.sushmit71@gmail.com">n.sushmit71@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -166,7 +165,7 @@ import AOS from 'aos';
                 <span class="info-icon">💬</span>
                 <div>
                   <strong>WhatsApp</strong>
-                  <p><a href="https://wa.me/919876543210" target="_blank">Message on WhatsApp</a></p>
+                  <p><a href="https://wa.me/916391647935" target="_blank">Message on WhatsApp</a></p>
                 </div>
               </div>
             </div>
@@ -178,9 +177,9 @@ import AOS from 'aos';
                 <div>
                   <strong>Business Hours</strong>
                   <p>
-                    Mon - Fri: 9:00 AM - 6:00 PM<br>
-                    Sat: 10:00 AM - 4:00 PM<br>
-                    Sun: Closed
+                    Mon - Sat: 9:00 AM - 9:00 PM<br>
+                    Sun: 9:00 AM - 10:00 PM<br>
+                    Gazetted Holidays: Closed
                   </p>
                 </div>
               </div>
@@ -343,7 +342,7 @@ export class ContactComponent implements OnInit {
     const whatsappMessage = `Hello, I'm ${encodeURIComponent(formData.name)}.\n\nI'm interested in: ${encodeURIComponent(formData.serviceRequired)}\n\nMy phone number: ${encodeURIComponent(formData.phone)}\n\nMessage: ${encodeURIComponent(formData.message)}`;
     
     // Construct WhatsApp API URL
-    const whatsappUrl = `https://wa.me/919876543210?text=${whatsappMessage}`;
+    const whatsappUrl = `https://wa.me/916391647935?text=${whatsappMessage}`;
     
     // Open WhatsApp in new tab
     window.open(whatsappUrl, '_blank');

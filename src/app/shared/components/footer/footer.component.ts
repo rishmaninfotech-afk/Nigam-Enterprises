@@ -37,9 +37,9 @@ import { RouterLink } from '@angular/router';
           <h4>Services</h4>
           <ul>
             <li><a href="#">CCTV Solutions</a></li>
+            <li><a href="#">Refurbished Laptops</a></li>
             <li><a href="#">Computer Repair</a></li>
             <li><a href="#">Hardware Sales</a></li>
-            <li><a href="#">Networking</a></li>
           </ul>
         </div>
 
@@ -48,15 +48,15 @@ import { RouterLink } from '@angular/router';
           <h4>Contact Us</h4>
           <p>
             <strong>Email:</strong><br>
-            <a href="mailto:info@nigam-enterprises.com">info@nigam-enterprises.com</a>
+            <a href="mailto:n.sushmit71@gmail.com">n.sushmit71@gmail.com</a>
           </p>
           <p>
             <strong>Phone:</strong><br>
-            <a href="tel:+919876543210">+91 98765 43210</a>
+            <a href="tel:+916391647935">+91 63916 47935</a>
           </p>
           <p>
             <strong>WhatsApp:</strong><br>
-            <a href="https://wa.me/919876543210" target="_blank">Message us</a>
+            <a href="https://wa.me/916391647935" target="_blank">Message us</a>
           </p>
         </div>
       </div>

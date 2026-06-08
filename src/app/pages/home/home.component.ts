@@ -221,7 +221,7 @@ import { Testimonial } from '../../core/models/testimonial.model';
           primaryButtonText="Contact Us Now"
           primaryButtonLink="/contact"
           secondaryButtonText="Call Now"
-          secondaryButtonLink="tel:+919876543210"
+          secondaryButtonLink="tel:+916391647935"
         ></app-cta>
       </div>
     </section>
@@ -235,21 +235,21 @@ import { Testimonial } from '../../core/models/testimonial.model';
             <span class="contact-icon">📧</span>
             <p>
               <strong>Email</strong><br>
-              <a href="mailto:info@nigam-enterprises.com">info@nigam-enterprises.com</a>
+              <a href="mailto:n.sushmit71@gmail.com">n.sushmit71@gmail.com</a>
             </p>
           </div>
           <div class="contact-item" data-aos="zoom-in" data-aos-delay="200">
             <span class="contact-icon">📞</span>
             <p>
               <strong>Phone</strong><br>
-              <a href="tel:+919876543210">+91 98765 43210</a>
+              <a href="tel:+916391647935">+91 63916 47935</a>
             </p>
           </div>
           <div class="contact-item" data-aos="zoom-in" data-aos-delay="300">
             <span class="contact-icon">💬</span>
             <p>
               <strong>WhatsApp</strong><br>
-              <a href="https://wa.me/919876543210" target="_blank">Message us</a>
+              <a href="https://wa.me/916391647935" target="_blank">Message us</a>
             </p>
           </div>
         </div>

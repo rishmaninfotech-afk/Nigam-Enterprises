@@ -46,7 +46,7 @@ export class DataService {
         fullDescription: 'Our expert technicians install high-quality CCTV systems tailored to your security needs.',
         icon: 'videocam',
         category: 'cctv',
-        image: 'https://images.unsplash.com/photo-1557821552-17105176677c?w=500',
+        image: 'https://images.unsplash.com/photo-1549109926-58f039549485?w=500',
         features: ['HD/4K Cameras', 'Night Vision', 'Remote Monitoring', 'Cloud Storage'],
         learnMoreUrl: '/services'
       },
@@ -56,7 +56,7 @@ export class DataService {
         description: 'Regular maintenance and repair of CCTV systems',
         icon: 'settings',
         category: 'cctv',
-        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=500',
+        image: 'https://images.unsplash.com/photo-1592933517548-f65267a96178?w=500',
         features: ['Regular Cleaning', 'Software Updates', '24/7 Support', 'Warranty Coverage'],
       },
       {
@@ -65,7 +65,7 @@ export class DataService {
         description: 'Annual Maintenance Contract for peace of mind',
         icon: 'verified',
         category: 'cctv',
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab655c753?w=500',
+        image: 'https://images.unsplash.com/photo-1723399726195-1fc25450f80d?w=500',
         features: ['Quarterly Checkups', 'Priority Support', 'Parts Replacement', 'Guaranteed Uptime'],
       },
 
@@ -76,7 +76,7 @@ export class DataService {
         description: 'Expert desktop computer repair and troubleshooting',
         icon: 'computer',
         category: 'computer',
-        image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500',
+        image: 'https://images.unsplash.com/photo-1604754742629-3e5728249d73?w=500',
         features: ['Hardware Diagnosis', 'OS Troubleshooting', 'Data Recovery', 'Performance Optimization'],
       },
       {
@@ -85,7 +85,7 @@ export class DataService {
         description: 'Comprehensive laptop repair and maintenance services',
         icon: 'laptop',
         category: 'computer',
-        image: 'https://images.unsplash.com/photo-1588872657840-18fc6f6f4ee0?w=500',
+        image: 'https://images.unsplash.com/photo-1658240527554-9cf987b4de49?w=500',
         features: ['Screen Replacement', 'Battery Service', 'Keyboard Repair', 'Motherboard Service'],
       },
       {
@@ -94,7 +94,7 @@ export class DataService {
         description: 'Professional software installation and configuration',
         icon: 'extension',
         category: 'computer',
-        image: 'https://images.unsplash.com/photo-1517694712485-e4e4b89fd554?w=500',
+        image: 'https://images.unsplash.com/photo-1762340915398-000c216e7cd6?w=500',
         features: ['Windows/Linux', 'Antivirus Setup', 'Driver Installation', 'License Activation'],
       },
       {
@@ -103,7 +103,7 @@ export class DataService {
         description: 'Advanced malware and virus removal services',
         icon: 'security',
         category: 'computer',
-        image: 'https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500',
+        image: 'https://images.unsplash.com/photo-1751448555253-f39c06e29d82?w=500',
         features: ['Deep Scan', 'Malware Removal', 'System Cleanup', 'Prevention Tips'],
       },
 
@@ -114,7 +114,7 @@ export class DataService {
         description: 'Quality computer components and accessories',
         icon: 'memory',
         category: 'hardware',
-        image: 'https://images.unsplash.com/photo-1586253408b8-4c137e82b353?w=500',
+        image: 'https://images.unsplash.com/photo-1550009158-9ebf69173e03?w=500',
         features: ['RAM Upgrades', 'SSD Installation', 'Motherboards', 'Cooling Solutions'],
       },
       {
@@ -123,7 +123,7 @@ export class DataService {
         description: 'High-quality refurbished laptops at affordable prices',
         icon: 'phoneAndroid',
         category: 'hardware',
-        image: 'https://images.unsplash.com/photo-1521697474919-4b8b55e9f9db?w=500',
+        image: 'https://images.unsplash.com/photo-1580522154071-c6ca47a859ad?w=500',
         features: ['Warranty Included', 'Quality Tested', 'Certified Refurbished', 'Great Value'],
       },
       {
@@ -132,7 +132,7 @@ export class DataService {
         description: 'Professional printer installation and troubleshooting',
         icon: 'print',
         category: 'hardware',
-        image: 'https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?w=500',
+        image: 'https://images.unsplash.com/photo-1612815154858-60aa4c59eaa6?w=500',
         features: ['Driver Setup', 'Network Configuration', 'Troubleshooting', 'Maintenance'],
       },
 
@@ -143,7 +143,7 @@ export class DataService {
         description: 'Fast and secure WiFi installation',
         icon: 'wifi',
         category: 'networking',
-        image: 'https://images.unsplash.com/photo-1550355291-bbee04a92027?w=500',
+        image: 'https://images.unsplash.com/photo-1612045194743-877419047a35?w=500',
         features: ['High-Speed Setup', 'Secure Network', 'Coverage Optimization', 'Device Support'],
       },
       {
@@ -152,7 +152,7 @@ export class DataService {
         description: 'Enterprise-grade networking solutions',
         icon: 'router',
         category: 'networking',
-        image: 'https://images.unsplash.com/photo-1521737604893-6f3031224c94?w=500',
+        image: 'https://images.unsplash.com/photo-1691435828932-911a7801adfb?w=500',
         features: ['LAN Setup', 'Server Configuration', 'Security Implementation', 'Performance Tuning'],
       },
       {
@@ -161,7 +161,7 @@ export class DataService {
         description: 'Expert router setup and optimization',
         icon: 'settings_remote',
         category: 'networking',
-        image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500',
+        image: 'https://images.unsplash.com/photo-1546124404-9e7e3cac2ec1?w=500',
         features: ['Advanced Setup', 'Port Forwarding', 'Security Hardening', 'Bandwidth Management'],
       },
     ];

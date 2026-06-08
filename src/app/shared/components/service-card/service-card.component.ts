@@ -22,14 +22,14 @@ import { Service } from '../../../core/models/service.model';
         
         <div class="card-buttons">
           <a 
-            href="tel:+919876543210" 
+            href="tel:+916391647935" 
             class="btn btn-call"
             (click)="trackButtonClick('call')"
           >
             Call Now
           </a>
           <a 
-            href="https://wa.me/919876543210?text=Hi,%20I%27m%20interested%20in%20{{service.title}}.%20Please%20contact%20me."
+            href="https://wa.me/916391647935?text=Hi,%20I%27m%20interested%20in%20{{service.title}}.%20Please%20contact%20me."
             target="_blank" 
             class="btn btn-whatsapp"
             (click)="trackButtonClick('whatsapp')"
