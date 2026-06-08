@@ -1,9 +1,0 @@
-[build]
-  publish = "dist/nigam-enterprises/browser"
-  command = "npm ci --legacy-peer-deps && npm run build"
-
-[context.deploy-preview]
-  command = "npm ci --legacy-peer-deps && npm run build"
-
-[context.branch-deploy]
-  command = "npm ci --legacy-peer-deps && npm run build"
