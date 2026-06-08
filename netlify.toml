@@ -1,11 +1,3 @@
-# Check the current directory structure to confirm the publish directory exists
-ls -la dist/nigam-enterprises/browser
-
-# Build the project to ensure the build command works
-npm run build
-
-# Deploy using Netlify CLI (if installed)
-netlify deploy
 [build]
   publish = "dist/nigam-enterprises/browser"
   command = "npm run build"
