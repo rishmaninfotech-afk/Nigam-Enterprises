@@ -323,82 +323,82 @@ export class DataService {
       {
         id: 'test-1',
         clientName: 'Rajesh Kumar',
-        clientCompany: 'Kumar Enterprises',
-        clientImage: 'https://i.pravatar.cc/150?img=1',
-        quote: 'Nigam Enterprises installed our office CCTV system and the quality is exceptional. Their team was professional and delivered on time.',
+        clientCompany: 'Self',
+        clientImage: 'https://images.unsplash.com/photo-1729157661483-ed21901ed892?w=150',
+        quote: 'Nigam Enterprises installed our home CCTV system and the quality is exceptional. Their team was professional and delivered on time.',
         rating: 5,
-        service: 'CCTV Installation',
-        date: '2024-02-15'
+        service: 'Home CCTV Installation',
+        date: '2026-06-08'
       },
       {
         id: 'test-2',
         clientName: 'Priya Sharma',
-        clientCompany: 'Tech Solutions Ltd',
-        clientImage: 'https://i.pravatar.cc/150?img=2',
-        quote: 'The networking solution they provided has improved our office productivity significantly. Highly recommended!',
+        clientCompany: 'Self',
+        clientImage: 'https://images.unsplash.com/photo-1706943262117-b35de4ba50b4?w=150',
+        quote: 'Bought an SSD and graphics card for my PC upgrade. Genuine products, competitive pricing, and excellent customer support.',
         rating: 5,
-        service: 'Office Networking',
-        date: '2024-01-20'
+        service: 'Computer Hardware Sales',
+        date: '2026-05-29'
       },
       {
         id: 'test-3',
         clientName: 'Vikram Singh',
-        clientCompany: 'Manufacturing Co',
-        clientImage: 'https://i.pravatar.cc/150?img=3',
+        clientCompany: 'Logistics Co',
+        clientImage: 'https://images.unsplash.com/flagged/photo-1571367034861-e6729ad9c2d5?w=150',
         quote: 'Their computer repair service is fast and reliable. They resolved our system issues within hours. Great support!',
         rating: 4,
         service: 'Computer Repair',
-        date: '2024-02-01'
+        date: '2026-05-21'
       },
       {
         id: 'test-4',
-        clientName: 'Anita Desai',
-        clientCompany: 'Retail Store Chain',
-        clientImage: 'https://i.pravatar.cc/150?img=4',
+        clientName: 'Anita Sharma',
+        clientCompany: 'Retail Store',
+        clientImage: 'https://images.unsplash.com/photo-1706943262473-fc393f495501?w=150',
         quote: 'The CCTV maintenance service they provide is top-notch. Our system runs smoothly 24/7 without any issues.',
         rating: 5,
         service: 'CCTV Maintenance',
-        date: '2023-12-10'
+        date: '2026-05-18'
       },
       {
         id: 'test-5',
-        clientName: 'Suresh Patel',
-        clientCompany: 'Hospital Network',
-        clientImage: 'https://i.pravatar.cc/150?img=5',
+        clientName: 'Suresh Nigam',
+        clientCompany: 'Customer Support Network',
+        clientImage: 'https://images.unsplash.com/photo-1534339480783-6816b68be29c?w=150',
         quote: 'Professional, reliable, and cost-effective. Nigam Enterprises helped us set up our entire IT infrastructure.',
         rating: 5,
         service: 'IT Support',
-        date: '2024-01-15'
+        date: '2026-05-15'
       },
       {
         id: 'test-6',
         clientName: 'Neha Gupta',
-        clientCompany: 'Hotel Group',
-        clientImage: 'https://i.pravatar.cc/150?img=6',
-        quote: 'Our guests love the WiFi setup they installed. Fast, reliable, and our staff receives excellent support.',
+        clientCompany: 'Hotel',
+        clientImage: 'https://images.unsplash.com/photo-1706943262459-3ef6ce03305c?w=150',
+        quote: 'Excellent CCTV installation service for our hotel. The cameras provide clear footage, and the team ensured complete coverage of key areas.',
         rating: 5,
-        service: 'WiFi Setup',
-        date: '2023-11-25'
+        service: 'CCTV Installation',
+        date: '2026-05-10'
       },
       {
         id: 'test-7',
         clientName: 'Arun Nambiar',
         clientCompany: 'Finance Corp',
-        clientImage: 'https://i.pravatar.cc/150?img=7',
+        clientImage: 'https://images.unsplash.com/photo-1694871420373-e9c1031b91ee?w=150',
         quote: 'Security is critical for us, and their CCTV and networking solutions give us complete peace of mind.',
         rating: 5,
         service: 'Security Solutions',
-        date: '2024-02-05'
+        date: '2026-05-03'
       },
       {
         id: 'test-8',
         clientName: 'Megha Verma',
-        clientCompany: 'Startup Hub',
-        clientImage: 'https://i.pravatar.cc/150?img=8',
+        clientCompany: 'Student',
+        clientImage: 'https://images.unsplash.com/photo-1618245472177-2a74ad3b994a?w=150',
         quote: 'Affordable, efficient, and friendly. Best decision we made for our IT needs!',
         rating: 4,
         service: 'Computer Services',
-        date: '2024-01-10'
+        date: '2026-04-28'
       },
     ];
   }

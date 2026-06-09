@@ -133,18 +133,19 @@
 @media (max-width: 768px) {
   .navbar-container {
     padding: 0 1rem;
+    position: relative;
   }
 
   .mobile-toggle {
     display: flex;
+    z-index: 1001;
   }
 
   .navbar-menu {
     position: absolute;
-    top: 70px;
+    top: 100%;
     left: 0;
     right: 0;
-    flex-direction: column;
     background-color: #fff;
     padding: 1.5rem;
     gap: 1rem;
@@ -152,28 +153,57 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
+    flex-direction: column;
+    align-items: stretch;
+    z-index: 1000;
 
     &.active {
       max-height: 500px;
     }
 
-    li a {
-      display: block;
-      padding: 0.75rem 0;
+    li {
+      width: 100%;
+      margin-bottom: 0.5rem;
+      
+      &:last-child {
+        margin-bottom: 0;
+      }
+      
+      a {
+        display: block;
+        padding: 0.75rem 1rem;
+        border-radius: 6px;
+        text-align: left;
+        
+        &:hover {
+          background-color: #f1f5f9;
+        }
+      }
     }
   }
 
   .navbar-cta {
-    display: none;
+    display: block;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    margin-top: 0.5rem;
   }
 }
 
 @media (max-width: 480px) {
   .logo-text {
-    display: none;
+    font-size: 1rem;
   }
 
   .navbar-container {
     padding: 0 0.75rem;
+  }
+  
+  .navbar-menu {
+    padding: 1rem;
+    
+    li a {
+      padding: 0.75rem 0.75rem;
+    }
   }
 }

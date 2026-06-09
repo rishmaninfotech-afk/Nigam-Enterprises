@@ -87,9 +87,6 @@ import { Laptop } from '../../core/models/laptop.model';
                 {{ laptop.warranty }} Warranty
               </div>
               <div class="product-actions">
-                <button class="btn btn-secondary" (click)="viewDetails(laptop)">
-                  View Details
-                </button>
                 <a href="/contact" class="btn btn-primary">Contact for Purchase</a>
               </div>
             </div>
@@ -223,9 +220,6 @@ export class RefurbishedLaptopsComponent implements OnInit {
     this.hasMoreProducts = filtered.length > this.displayedLaptops.length;
   }
 
-  viewDetails(laptop: Laptop) {
-    console.log('Viewing details for:', laptop);
-  }
 
   private setMetaTags() {
     this.titleService.setTitle('Refurbished Laptops | Nigam Enterprises');
